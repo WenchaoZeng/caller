@@ -1,0 +1,7 @@
+D:\workspace\Caller\Caller\bin\name.zwc.Caller.dll
+D:\workspace\Caller\Caller\bin\name.zwc.Caller.pdb
+D:\workspace\Caller\Caller\obj\Release\ResolveAssemblyReference.cache
+D:\workspace\Caller\Caller\obj\Release\name.zwc.Caller.dll
+D:\workspace\Caller\Caller\obj\Release\name.zwc.Caller.pdb
+D:\workspace\Caller\Caller\bin\name.zwc.Caller.Handlers.HandlerSample.dll
+D:\workspace\Caller\Caller\bin\name.zwc.Caller.Handlers.HandlerSample.pdb
