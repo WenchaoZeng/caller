@@ -1,0 +1,5 @@
+D:\workspace\Caller\Caller\bin\name.zwc.Caller.dll
+D:\workspace\Caller\Caller\bin\name.zwc.Caller.pdb
+D:\workspace\Caller\Caller\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\Caller\Caller\obj\Debug\name.zwc.Caller.dll
+D:\workspace\Caller\Caller\obj\Debug\name.zwc.Caller.pdb
