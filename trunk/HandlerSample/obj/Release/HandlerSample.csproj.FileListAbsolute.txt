@@ -1,5 +1,0 @@
-D:\workspace\Caller\HandlerSample\bin\Release\name.zwc.Caller.Handlers.HandlerSample.dll
-D:\workspace\Caller\HandlerSample\bin\Release\name.zwc.Caller.Handlers.HandlerSample.pdb
-D:\workspace\Caller\HandlerSample\obj\Release\ResolveAssemblyReference.cache
-D:\workspace\Caller\HandlerSample\obj\Release\name.zwc.Caller.Handlers.HandlerSample.dll
-D:\workspace\Caller\HandlerSample\obj\Release\name.zwc.Caller.Handlers.HandlerSample.pdb
