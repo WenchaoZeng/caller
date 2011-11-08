@@ -15,6 +15,10 @@ namespace name.zwc.Caller
         {
             String handlerName = context.Request.QueryString["h"];
             String methodName = context.Request.QueryString["m"];
+            if (String.IsNullOrEmpty(handlerName) || String.IsNullOrEmpty(methodName))
+            {
+                return;
+            }
 
             // 参数
             String input = new StreamReader(context.Request.InputStream, Encoding.UTF8).ReadToEnd();
