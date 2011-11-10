@@ -28,14 +28,22 @@ namespace name.zwc.Caller
                 args.Add(key, context.Request.Params[key]);
             }
 
-            // 构建处理器
-            Assembly assembly = Assembly.Load(HandlerNamesapce + "." + handlerName);
-            Type type = assembly.GetType(HandlerNamesapce + "." + handlerName);
-            MethodInfo method = type.GetMethod(methodName);
+            try
+            {
+                // 构建处理器
+                Assembly assembly = Assembly.Load(HandlerNamesapce + "." + handlerName);
+                Type type = assembly.GetType(HandlerNamesapce + "." + handlerName);
+                MethodInfo method = type.GetMethod(methodName);
 
-            String result = (String)method.Invoke(null, new object[] { input, args });
+                String result = (String)method.Invoke(null, new object[] { input, args });
 
-            context.Response.Write(result);
+                context.Response.Write(result);
+            }
+            catch (Exception ex)
+            {
+                context.Response.ContentType = "text/plain";
+                context.Response.Write("Error:\n\n" + ex.ToString());
+            }
         }
 
         public bool IsReusable
